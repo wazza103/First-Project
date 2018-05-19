@@ -1,0 +1,42 @@
+body {
+  background-color: light-grey;
+}
+
+.titlefont {
+  font-family: 'Audiowide', sans-serif;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.container-flu {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.var-text {
+  font-size: 3rem;
+}
+@include media-breakpoint-up(xs) {
+  .var-text {
+    font-size: 1.2rem;
+  }
+}
+@include media-breakpoint-up(sm) {
+  .var-text {
+    font-size: 1.4rem;
+  }
+}
+@include media-breakpoint-up(md) {
+  .var-text {
+    font-size: 1.6rem;
+  }
+}
